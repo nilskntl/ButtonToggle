@@ -9,7 +9,11 @@ static File TOGGLE_DIR = new File(ROOT_DIR, "Toggle");
 and
 
 public static void init() {
+
+
     if(!TOGGLE_DIR.exists()) { TOGGLE_DIR.mkdirs(); }
+	
+	
 }
 
 

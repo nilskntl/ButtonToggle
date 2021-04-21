@@ -8,9 +8,9 @@ Add to your file Manager:
 
 and
 
-`public static void init() {
+```public static void init() {
     if(!TOGGLE_DIR.exists()) { TOGGLE_DIR.mkdirs(); }
-}`
+}```
 
 
 Now you can add your button to your GUI like a normal button

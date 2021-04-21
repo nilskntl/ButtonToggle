@@ -10,9 +10,7 @@ and
 
 public static void init() {
 
-
     if(!TOGGLE_DIR.exists()) { TOGGLE_DIR.mkdirs(); }
-	
 	
 }
 

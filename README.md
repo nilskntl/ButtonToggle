@@ -3,7 +3,6 @@ Snippet for a toggle button that saves its status by creating a json file named 
 Before you can use the toggle button, you have to add a few things to your file manager or simply copy the code from the file manager.
 
 Add to your file Manager:
-
 `static File TOGGLE_DIR = new File(ROOT_DIR, "Toggle");`
 and
 `public static void init() {
